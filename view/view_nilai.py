@@ -1,6 +1,4 @@
-# Menampilkan data
-
-from model.daftar_nilai import *
+from model.daftar_nilai import*
 
 class View_Nilai:
     def __init__(self, list = []):
