@@ -12,7 +12,7 @@ Matkul : Bahasa Pemrograman
 ![Gambar 1](Screenshoot/soalprogram.png)
 
 ## Penjelasan : 
-Pada directory model dan view merupakan sebuah package yang didalamnya terdapat sekumpulan modul python yang berada dalam sebuah folder serta memiliki satu modul constructor `__init__.py`. Dengan struktur, seperti pada package  model yang isinya terdapat modul `daftar_nilai.py` serta file python yang bernama `__init__.py` sedangkan package view yang isinya terdapat modul `input_nilai.py` dan `view_nilai.py` serta file python juga yang bernama `__init__.py`. fungsi file python __init__.py berfungsi untuk memberi tahu python interpreter bahwa folder tersebut adalah sebuah package. Jadi, setiap direktori atau folder yang berisi modul constructor `__init__.py` akan diperilakukan sebagai package. Sedangkan file python `main.py` berisi program utama(menu pilihan yang memanggil semua menu yang ada).
+Pada directory model dan view merupakan sebuah package yang didalamnya terdapat sekumpulan modul python yang berada dalam sebuah folder serta memiliki satu modul constructor `__init__.py`. Dengan struktur, seperti pada package  model yang isinya terdapat modul `daftar_nilai.py` serta file python yang bernama `__init__.py`. Sedangkan package yaitu isinya terdapat modul `input_nilai.py` dan `view_nilai.py` serta file python juga yang bernama `__init__.py`. Fungsi file python `__init__.py` berfungsi untuk memberi tahu python interpreter bahwa folder tersebut adalah sebuah package. Jadi setiap direktori atau folder yang berisi modul constructor `__init__.py` akan diperilakukan sebagai package. Sedangkan file python `main.py` berisi program utama(menu pilihan yang memanggil semua menu yang ada).
 
 ### 1. Model
 * **Daftar_nilai.py**
