@@ -16,6 +16,7 @@ Pada direktory model dan view merupakan sebuah package yang didalamnya terdapat 
 
 ### 1. Model
 * **Daftar_nilai.py**
+
 Pada file daftar_nilai.py dalam sebuah package model yaitu berisi modul untuk : tambah_data, ubah_data, hapus_data, dan cari_data.
 ```python
 from view.input_nilai import *
@@ -187,6 +188,7 @@ def cari_data():
 
 ### 2. View
 * **Input_nilai.py**
+
 Pada file `input_nilai.py` dalam sebuah package view yaitu berisi modul untuk : input_data yang meminta pengguna 
 memasukkan data.
 ```python
@@ -286,6 +288,7 @@ def input_nim():
 ```
 
 * **view_nilai.py**
+
 Pada file `view_nilai.py` dalam sebuah package view yaitu berisi modul untuk : cetak_daftar_nilai dan cetak_hasil_pencarian
 ```python
 # Menampilkan data
